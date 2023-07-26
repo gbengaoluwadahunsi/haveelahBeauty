@@ -1,0 +1,719 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+body {
+
+	background-color: white;
+	line-height: 1.76;
+	font-size:1.15rem;
+}
+
+h2{
+	font-size: 1.1rem;
+}
+
+
+ol, ul {
+	list-style: none;
+}
+
+ a{
+	text-decoration: none;
+	border: none;
+}
+
+
+	p {
+		color :rgb(69, 66, 66);
+	}
+
+
+	h1, h2, h3, h4, h5, h6 {
+		color: #0C2436;
+	}
+
+	#toggle_btn {
+		display: none;
+		height: 2rem;
+		padding: 1rem;
+		
+		
+	  } 
+
+
+
+ 
+	.topnav {
+		
+		overflow: hidden;
+		background-color: #0C2436;
+		display: flex;
+		flex-direction: row;
+		justify-content:space-around;
+		
+		
+		 }
+
+	  
+
+	  
+	  
+	  .topnav a {
+		display: block;
+		color: whitesmoke;
+		font-size: 17px;
+		text-decoration: none;
+		
+	  }
+
+	  .topnav a:hover{
+		padding: 3px 5px;
+		background-color: white;
+		color: #0C2436;
+	  }
+	  
+	
+
+
+
+	  .topnav li a {
+		text-transform: uppercase;
+		font-weight: bold;
+	  }
+
+	 
+
+	  .topnav ul{
+		display: flex;
+		flex-basis: 40%;
+		justify-content:space-around;
+		flex-direction: row;
+		align-items: center;
+		
+		
+		
+	  }
+
+	  #intro {
+		margin-top: 1rem;
+		background-color: #0C2436;		
+		
+	}		
+
+ 
+	#intro img{
+		display: block;
+		margin: 0 auto;
+		background-repeat: no-repeat;
+		width: 50%;
+		height: 20%;		
+		
+	}
+
+
+	  #brand{
+		margin: 4rem 4rem;
+		text-align: center;
+		/* height: 15rem; */
+	  }
+	  
+
+	  #brand p{
+		width: 69.7%;
+		text-align: justify;
+		margin: 0 auto;
+		
+		
+	  }
+
+	  #ceo{
+		padding-top: 6rem;
+		height: 30rem;
+		background-color: #0C2436;
+		margin: 4rem 0;
+		display: flex;
+		justify-content: space-around;
+		gap:1rem;
+	  }
+
+
+
+	  #ceo img{
+		display: block;
+		   border: 3px solid #0C2436;
+	       /* width: 50%;  */
+           height: 15rem; 
+		  flex-basis: 20%;
+		  padding-left: 2rem;
+		  border-radius: 0.5rem;
+		  
+	  }
+
+	  #ceo .ceoSection{
+		
+		flex-basis: 80%;
+		
+	  }
+
+	  #ceo h2{
+		color: white;
+		text-align: center;
+	  }
+
+	  #ceo p{
+		margin-top: -1rem;
+		padding: 2rem;
+		color: white;
+		text-align: justify;
+	  }
+
+	  .button{
+		display: inline-block;
+		background-color: orange;
+		padding:  5px 10px;
+		color: white;
+		margin-top: 1rem;
+	  } 
+
+	  .button:hover{
+       background-color: #2d3c47;;
+	  }
+
+    
+
+	  #whatWeBelieve{
+		margin: 4rem 4rem;
+		text-align: center;
+		height: 12rem;
+	  }
+	  
+
+	  #whatWeBelieve p{
+		width: 73%;
+		text-align: justify;
+		margin: 0 auto;
+		
+	  }
+	  
+
+	  #whatweBelieve img{
+		display: block;
+		margin-top: -3rem;
+	  }
+
+	 
+
+
+   footer{
+	padding: 2rem;
+	font-size: 1rem;
+	color:white;
+	background-color: #0C2436;
+	text-align: center;
+   }
+	
+	
+   .footerSpan{
+	display: block;
+   }
+
+   .footerSpan.endNote {
+	font-size:0.7rem;
+	margin-top: 3rem;
+   }
+
+   .footerSpan.endNote span a {
+	color :rgb(69, 66, 66); ;
+   }
+
+   footer i{
+	font-size: 1.5rem;
+	padding : 0.4rem;
+	color: orange;
+   }
+
+   footer i:hover{
+	background-color:white ;
+	color: #0C2436;
+	border-radius: 50%;
+   }
+
+   main{
+	padding: 3rem;
+	text-align: center;
+   }
+
+   main h2{
+	text-decoration: underline;
+	text-underline-offset: 0.4rem;
+	text-decoration-thickness: 0.3rem;
+   }
+ 
+
+   main img{
+	margin-top: 2.5rem;
+	width: 70rem;
+	
+   }
+
+   main p{
+	padding: 1rem 0;
+	text-align: center;
+	width: 59rem;
+	margin: 0 auto;
+   }
+
+
+   form {
+ 
+	max-width: 40rem;
+	margin: 0 auto;
+	height: 30rem;
+  }
+  
+  input[type = "text"],
+  input[type = "email"],
+  textarea {
+	width: 100%;
+	padding: 10px;
+	margin-top: 2rem;
+	border: 1px solid #002244;
+	border-radius: 4px;
+	
+  }
+  
+  input[type = "submit"]{
+	
+	color: white;
+	background-color:orange;
+	border: none;
+	padding: 0.625rem 1.25rem;
+	cursor: pointer;
+	border-radius: 0.25rem;
+   
+   
+  }
+  
+  input[type ="submit"]:hover {
+	background-color: rgb(199, 150, 59);
+  }
+  
+  .contact div{
+	text-align: center;
+	line-height: 0.8;
+	padding-bottom: 4rem;
+   
+  }
+
+  .contact-p{
+	width: 75%;
+	text-align: center;
+  }
+
+  .gallery p{
+	/* margin-top: -3rem; */
+	padding: 1rem 0;
+	text-align: center;
+	width: 58rem;
+	margin: 0 auto;
+  }
+
+ 
+
+  #gallery section{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	row-gap :1.5rem;
+	column-gap: 0.2rem;
+	align-items: baseline;
+  }
+
+  #gallery section img{
+	flex-basis: 23%;
+	display: block;
+	width:5rem;
+	height: 20rem;
+	border: 3px solid #0C2436;
+	
+
+  }
+  
+  #gallery section iframe{
+	height: 20rem;
+	width: 18rem;
+	border: 5px solid #0C2436;
+	
+
+  }
+
+  #gallery section img:nth-child(4n){
+	border-top-right-radius: 2rem;
+	border-bottom-right-radius: 2rem;
+  }
+
+  #gallery section img:nth-child(4n+1){
+	border-top-left-radius: 2rem;
+	border-bottom-left-radius: 2rem;
+  }
+	
+
+  #gallery section iframe+iframe{
+	border-top-right-radius: 2rem;
+	border-bottom-right-radius: 2rem;
+  }
+
+  
+  
+	
+
+  /*----------media queries---------*/
+  @media  screen  and (max-width: 480px){
+
+	body {
+		
+		font-size: 1rem;
+		
+	}
+	
+
+	#toggle_btn {
+		display: block;
+		margin-top: 2.5rem;
+		color: white;
+		font-size: larger;
+		cursor: pointer;
+	
+		 } 
+
+	 
+
+	  .topnav  ul{
+		display: none;
+		
+	  }
+
+	  .topnav ul a {
+		color: #0C2436;
+	  }
+
+	  .topnav .logo{
+		margin-right: 0.6rem;
+	  }
+
+
+
+	  .topnav ul.show-menu{
+		display: flex;
+		position: fixed;
+		flex-direction: column;
+		row-gap: 1rem;
+		z-index: 9999;
+		left: 0;
+		font-size: 0.8rem;
+		padding:  5rem 2rem;
+		background-color: white;
+		margin-top: 4rem;
+		height: 30rem;
+		
+		width: 70%;
+		
+	  }
+
+	 
+
+	  #intro img{
+		height: 15rem;
+	  }
+
+	  #brand{
+		margin: 1rem 0.5rem;
+		text-align: center;
+		/* height: 20rem; */
+	  }
+
+	  #brand p{
+		width: 87%;
+	  }
+
+
+
+	  #ceo{
+		padding-top: 2rem;
+		height: 48rem;
+		background-color: #0C2436;		
+		flex-direction: column;
+		
+	  }
+
+
+
+	  #ceo img{
+		  display: inline-block;
+		   border: 3px solid #0C2436;	
+           height: 15rem; 
+		   width: 70%;
+		   border-radius: 0.5rem;
+		   margin-left: 3rem;	  
+		  
+	  }
+
+	 
+	  #ceo p{
+		margin-top: -1rem;
+		
+		/* height: 30rem; */
+		background-color: #0C2436;
+			
+		  }
+
+		
+
+		#whatWeBelieve{
+			margin: -2rem 0.2rem 0 0.2rem;			
+			height: 15rem;
+			padding-bottom: 2rem;
+
+		  }
+		  
+	
+		  #whatWeBelieve p{
+		 
+			width: 87%;								
+			
+		  }
+
+		 
+
+
+		  main img{
+			margin-top: 2rem;
+			width: 15rem;
+		   }
+
+		 
+		
+		   main p{
+			padding: 1rem 0;
+			text-align: center;
+			width: 15rem;
+			margin: 0 auto;
+		   }
+
+		   #gallery section{
+			flex-direction: column;
+		   }
+
+		   #gallery section img{
+			display: block;
+			width: 100%;
+			/* height: 10rem; */
+			
+		   }
+
+		   .gallery p{
+			
+			text-align: justify;
+			width: 15rem;
+			margin: 0 auto;
+			
+		   }
+
+		   .index{
+			margin-top: 11rem;
+		   }
+
+		  
+	
+  }
+
+  @media screen and (min-width: 481px) and (max-width : 768px) {
+	body {
+		font-size: 1rem;
+		
+		
+	}
+	
+
+	#toggle_btn {
+		display: block;
+		margin-top: 2rem;
+		color: white;
+		display: block;
+		font-size: larger;
+		cursor: pointer;
+		
+	  } 
+	  .topnav{
+		padding: 0 2rem;
+		justify-content: space-between;
+	  }
+
+	 
+
+	  .topnav  ul{
+		display: none;
+		
+	  }
+
+	  .topnav ul a {
+		color: #0C2436;
+	  }
+
+	  .topnav .logo{
+		margin-right: 0.6rem;
+	  }
+
+
+
+	  .topnav ul.show-menu{
+		display: flex;
+		position: fixed;
+		flex-direction: column;
+		row-gap: 1rem;
+		z-index: 9999;
+		left: 0;
+		font-size: 0.8em;
+		background-color: white;
+		margin-top: 4rem;
+		height: 35rem;
+		width: 70%;
+		padding:  5rem 2rem;
+		
+	  }
+
+	  #ceo{
+		padding-top: 10rem;
+		height: 45rem;
+		background-color: #0C2436;		
+		flex-direction: column;
+		
+	  }
+
+
+
+	  #ceo img{
+		  display: block;
+		   border: 3px solid #0C2436;	
+           /* height: 15rem;  */
+		   width: 50%;
+		   border-radius: 0.5rem;
+		   /* margin-left: 3rem;	*/ 
+		   margin: 0 auto;
+		    margin-top: 3.5rem;   
+		 
+		  
+	  }
+
+	 
+	  #ceo p{
+		margin-top: 1rem;
+		background-color: #0C2436;
+			
+		  }
+
+		
+		
+
+	  #whatWeBelieve {
+		/* margin-top: 20rem; */
+		padding-top: 2rem;
+       
+	
+	  }
+
+	 
+	  main p{
+		
+		text-align: center;
+		width: 100%;
+		margin: 0 auto;
+	  }
+
+	  main img{
+		margin-top: 2.5rem;
+		display: block;
+		width: 100%;
+
+	  }
+
+	  .gallery p{
+			
+		text-align: justify;
+		width: 100%;
+		margin: 0 auto;
+	  }
+
+	  #gallery section img{
+		width: 60%;
+	  }
+
+	  .index{
+		margin-top: 13rem;
+	   }
+	}
+
+	@media screen and (min-width: 769px) and (max-width : 1024px) {
+		body {
+			font-size: 1rem;
+			
+			
+		}
+		
+	
+		
+			
+		  } 
+		  .topnav{
+			padding: 0 2rem;
+			justify-content: space-between;
+		}
+
+	
+		  .topnav .logo{
+			margin-right: 0.6rem;
+		  }
+
+		  .topnav ul{
+			flex-basis: 60%;
+			justify-content:space-between;
+			
+	}
+
+	#whatWeBelieve{
+		height: 12rem;
+	}
+
+	main p{
+		
+		text-align: center;
+		width: 100%;
+		margin: 0 auto;
+	  }
+
+	  main img{
+		margin-top: 2.5rem;
+		display: block;
+		width: 100%;
+
+	  }
+
+	  .gallery p{
+			
+		text-align: justify;
+		width: 100%;
+		margin: 0 auto;
+	  }
+}
+
+	  
+	  
+
+
+	  
